@@ -4,7 +4,7 @@ CREATE TABLE "menu" (
 	"price" integer NOT NULL
 );
 --> statement-breakpoint
-CREATE TABLE "order" (
+CREATE TABLE "orders" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"items" text NOT NULL,
 	"total" integer NOT NULL,

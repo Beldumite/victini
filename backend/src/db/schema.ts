@@ -9,9 +9,10 @@ export const menu = pgTable("menu", {
     price: integer('price').notNull()
 })
 
-export const order = pgTable("orders", {
-    Id: serial('id').primaryKey(),
+export const orders = pgTable("orders", {
+    id: serial('id').primaryKey(),
     items: text('items').notNull(),
     total: integer('total').notNull(),
     status: text('status').default('pending')
 })
+

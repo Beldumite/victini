@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "school_sucksss",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec tsx src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "food": "npx tsx src/db/food.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hono/node-server": "^1.19.0",
     "dotenv": "^17.2.1",
     "drizzle-orm": "^0.44.4",
     "hono": "^4.9.2",
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "@types/pg": "^8.15.5",
     "drizzle-kit": "^0.31.4",
     "nodemon": "^3.1.10",
     "typescript": "^5.9.2"

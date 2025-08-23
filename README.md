@@ -28,6 +28,14 @@ cd victini
 
 ```
 
+Create a .env file
+```
+POSTGRES_USER=yourname
+POSTGRES_PASSWORD=yourpass
+POSTGRES_DB=yourdbname
+DATABASE_URL=postgres://name:pass@db:5432/dbname
+```
+
 install all dependencies
 ```bash
 cd backend && npm install
