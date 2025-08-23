@@ -28,13 +28,15 @@ cd victini
 
 ```
 
-Create a .env file
+From the .env.example file
 ```
 POSTGRES_USER=yourname
 POSTGRES_PASSWORD=yourpass
 POSTGRES_DB=yourdbname
 DATABASE_URL=postgres://name:pass@db:5432/dbname
 ```
+fill all the required value
+then renamed it from **.env.example** to **.env**
 
 install all dependencies
 ```bash
