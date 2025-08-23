@@ -9,7 +9,9 @@
     "dev": "nodemon --exec tsx src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "food": "npx tsx src/db/food.ts"
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "npx tsx src/db/seed.ts"
   },
   "author": "",
   "license": "ISC",

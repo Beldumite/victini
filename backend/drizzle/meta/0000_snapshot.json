@@ -1,5 +1,5 @@
 {
-  "id": "daa448d4-67f2-427a-9f29-18afbf9c9bac",
+  "id": "a6d86197-0327-4270-8b8f-89c58753b4e8",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -35,8 +35,8 @@
       "checkConstraints": {},
       "isRLSEnabled": false
     },
-    "public.order": {
-      "name": "order",
+    "public.orders": {
+      "name": "orders",
       "schema": "",
       "columns": {
         "id": {

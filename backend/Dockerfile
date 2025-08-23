@@ -13,14 +13,12 @@ RUN npm install
 COPY . .
 #copy all of our code to the dir
 
-RUN npm run food
-
 ENV PORT=8080
 #set the env var of port to 8080
 
 EXPOSE 8080
 #expose the 8080 port
 
-CMD [ "npm", "run", "dev", "food" ]
+CMD [ "npm", "run", "dev" ]
 
 
