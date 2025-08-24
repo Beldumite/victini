@@ -16,7 +16,7 @@ export const loadMenu = async () => {
 
         menuGrid.innerHTML = state.menu.map(item => `
             <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                <div class="h-48 bg-gradient-to-br from-amber-400 to-orange-500"></div>
+                <img src=${item.url} alt="cheeseCake" class="w-full bg-gradient-to-br from-amber-400 to-orange-500 h-80 object-cover">
                 <div class="p-6">
                     <h4 class="text-lg font-semibold text-gray-800 mb-2">${item.name}</h4>
                     <p class="text-2xl font-bold text-amber-600 mb-4">${formatPrice(item.price)}</p>

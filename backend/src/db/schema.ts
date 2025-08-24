@@ -6,7 +6,8 @@ import { totalmem } from "os";
 export const menu = pgTable("menu", {
     id: serial('id').primaryKey(),
     name: text('name').notNull(),
-    price: integer('price').notNull()
+    price: integer('price').notNull(),
+    url: text('url')
 })
 
 export const orders = pgTable("orders", {
